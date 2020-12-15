@@ -12,9 +12,9 @@ public class TransactionsDto {
 	public long getTransactionId() {
 		return transactionId;
 	}
-	public void setTransactionId(long transactionId) {
-		this.transactionId = transactionId;
-	}
+//	public void setTransactionId(long transactionId) {
+//		this.transactionId = transactionId;
+//	}
 	
 	public String getTransactionType() {
 		return transactionType;

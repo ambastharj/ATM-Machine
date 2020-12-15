@@ -12,9 +12,9 @@ public class CurrencyCountDto {
 	public int getSerialNumber() {
 		return serialNumber;
 	}
-	public void setSerialNumber(int serialNumber) {
-		this.serialNumber = serialNumber;
-	}
+//	public void setSerialNumber(int serialNumber) {
+//		this.serialNumber = serialNumber;
+//	}
 	
 	public int getCurrencyType() {
 		return currencyType;
