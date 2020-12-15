@@ -9,7 +9,7 @@ public class UserDto {
 	private String firstName;
 	private String lastName;
 	private int pin;
-	private Date createDateTime;
+	private String createDateTime;
 	private String accountType;
 	
 	public long getUserId() {
@@ -47,10 +47,10 @@ public class UserDto {
 		this.pin = pin;
 	}
 	
-	public Date getCreateDateTime() {
+	public String getCreateDateTime() {
 		return createDateTime;
 	}
-	public void setCreateDateTime(Date createDateTime) {
+	public void setCreateDateTime(String createDateTime) {
 		this.createDateTime = createDateTime;
 	}
 	
@@ -59,6 +59,17 @@ public class UserDto {
 	}
 	public void setAccountType(String accountType) {
 		this.accountType = accountType;
+	}
+
+	@Override
+	public String toString() {
+		return "User created successfully.." + "\n"
+				+ "User Id         :  " + userId + "\n"
+				+ "Username        :  " + userName + "\n"
+				+ "First Name      :  " + firstName + "\n"
+				+ "Last Name       :  " + lastName + "\n"
+				+ "Creation Date   :  " + createDateTime + "\n"
+				+ "Account Type    :  " + accountType + "\n";
 	}
 	
 }
